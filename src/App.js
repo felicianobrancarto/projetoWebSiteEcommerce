@@ -1,13 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
-import Header from './components/Header';
-import Main from './components/Main'
+import Home from "./pages/Home"
+import React from 'react'
 
 function App() {
   return (
     <div>
-      <Header />
-      <Main />
+      <Home />
       </div>
   );
 }
