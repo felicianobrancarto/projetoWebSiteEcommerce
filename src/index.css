@@ -1,32 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&family=Rowdies:wght@700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*:focus {
-  outline: 0;
-}
-
-html,
-body,
-#root {
-  height: 100%;
-}
-
 body {
   font: 14px 'Open Sans', sans-serif;
+  background-color: #E5E5E5;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-button {
-  cursor: pointer;
-}

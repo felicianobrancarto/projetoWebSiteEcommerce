@@ -5,18 +5,13 @@
     align-items: center;
     justify-content:space-around;
     margin: 0 auto ;
-    flex-wrap:wrap ;
     color:  #FFFFFF;
-    
-
 }
 .box{
     display:flex;
-    flex-direction: row;
     background-color: #407BFF;
     align-items: center;
-    justify-content: center;
-    
+    width: 100%;
 }
 
 .imagemlogo{
