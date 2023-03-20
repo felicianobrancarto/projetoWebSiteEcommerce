@@ -1,5 +1,5 @@
-body {
+
+html, body, #root {
   font: 14px 'Open Sans', sans-serif;
   background-color: #E5E5E5;
 }
-

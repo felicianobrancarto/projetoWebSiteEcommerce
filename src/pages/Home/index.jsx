@@ -4,10 +4,7 @@ import Main from '../../components/Main'
 
 function Home(props) {
     return (
-        <div>
-            <Header />
-            <Main />
-        </div>
+       <Main />
     );
 }
 

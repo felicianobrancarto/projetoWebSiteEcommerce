@@ -1,21 +1,19 @@
 import React from "react";
 import  styles from "./Header.module.css"
 import logo from './/..//Header/DsCatalog.png'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
 return(
-    <div className={styles.box}>
-       <div className={styles.imagemlogo}>
-       <img src={logo}/>
-        </div>
+    <nav className={styles.navbar}>
+       <img src={logo} className={styles.imagemlogo}/>
         <div className={styles.container}>
-        <a  href="/">HOME</a>
-        <a href="/">CATÁLOGO</a>
-        <a href="/">ADMIN</a>
+        <NavLink to="/" className={styles.link} activeClassName="select">HOME</NavLink>
+        <NavLink to="/catalogo" className={styles.link}activeClassName="select">CATÁLOGO</NavLink>
+        <NavLink to="/admin" className={styles.link} activeClassName="select">ADMIN</NavLink>
         </div>
         
-        
-    </div>
+    </nav>
 )
 }
 

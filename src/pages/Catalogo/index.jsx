@@ -3,7 +3,7 @@ import React from 'react';
 function Catalogo(props) {
     return (
         <div>
-            Página Catalogo
+            <p>Página Catalogo</p>
         </div>
     );
 }
